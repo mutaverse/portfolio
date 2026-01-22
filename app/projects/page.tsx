@@ -2,7 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { ExternalLink, Github, Rocket, Code2 } from "lucide-react";
 
-const projects = [
+type Project = {
+  title: string;
+  type: "startup" | "project";
+  description: string;
+  image: string;
+  links: {
+    website?: string;
+    github?: string;
+    demo?: string;
+  };
+};
+
+const projects: Project[] = [
   {
     title: "Fyrstly",
     type: "startup",
