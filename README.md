@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Portfolio Website
 
 A clean, minimal, and professional personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
@@ -90,3 +91,5 @@ The site will be automatically deployed and updated on every push to the main br
 ## License
 
 MIT
+=======
+
